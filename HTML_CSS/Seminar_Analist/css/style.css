@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Our Fonts;
+    src: url(../fonts/Marck_Script/MarckScript-Regular.ttf);
+}
+
+html{
+    width: 100%;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(226, 202, 248);
+}
+
+
+.center{
+    margin-left: calc(100% -2000px);
+    margin-right:calc(100%-2000px) ;
+}
+
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    .mainHeader .mainHeader__logo{
+        margin: 7px, 11 px;
+    }
+
+    .mainHeader .mainHeader__logo{
+        width: 200px;
+        height: 200px;
+    }
+
+    .mainHeader .mainHeader__title .mainHeader__menu__nav{
+        font-family:  Our Fonts, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .mainHeader .mainHeader__menu{
+        display: flex;
+        list-style-type: none;
+        
+    }
+
+    .header_menu li{
+        padding: 0 149px;
+    }
